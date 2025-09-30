@@ -1,2 +1,4 @@
 import tkinter as tk
 from tkinter import messagebox
+
+class Ingrediente: hola
