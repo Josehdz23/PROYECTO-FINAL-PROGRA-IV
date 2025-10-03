@@ -1,3 +1,5 @@
+from main import *
+ingredientes = {}
 class Ingrediente:
     def __init__(self,nombre,cantidad,unidad,fecha):
         self.nombre = nombre
@@ -6,6 +8,7 @@ class Ingrediente:
         self.fecha = fecha
 
 class GestionIngredientes:
-    def __init__(self):
-        self.ingredientes = {}
+    def agregarIngrediente(self,ingrediente):
+        pass
+
 
