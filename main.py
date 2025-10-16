@@ -1,7 +1,7 @@
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow
 from ventana import Ui_MainWindow
-# from recetas import lista_de_recetas # Lo usaremos mas adelante
+# from recetas import lista_de_recetas Lo usaremos mas adelante
 
 class MiVentana(QMainWindow):
     def __init__(self):
